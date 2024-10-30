@@ -1,0 +1,332 @@
+/*generic css (green) */
+
+/*clear both underline */
+.cf_classyclear{
+clear:both;
+height:3px;
+width:80%;
+margin:2px auto;
+border-bottom:2px solid #CCC;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+.cf_clearclear{
+clear:both;
+}
+/*main panel */
+.classy_listing_main{
+width:70%;
+float:left;
+text-align:center;
+}
+
+.classyfrieds_menu{
+text-align:center;
+margin:1%;
+padding:1%;
+border-radius:15px;
+border:3px solid green;
+background-color:lightgreen;
+-webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+-moz-box-shadow: 0 0 1em hsla(0, 0%, 0%, 1.0);
+box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+}
+.classyfrieds_menu a{
+color:black;
+font-weight:700;
+margin-right:7px;
+}
+.classyfrieds_menu a:hover{
+color:white;
+}
+.topmenu_search{
+width:50%;
+margin:1px auto;
+}
+
+/* listing page 1 column */
+.classyfrieds_1col{
+margin:1%;
+padding: 3px 1%;
+text-align:left;
+background-color:lightgreen;
+border:4px solid green;
+overflow:hidden;
+}
+.classyfrieds_1col_thumb{
+float:left;
+width:110px;
+height:110px;
+margin: 2px 12px 2px 2px;
+border:2px solid #ccc;
+overflow:hidden;
+}
+.classyfrieds_1col_title{
+height:26px;
+font-size:20px;
+text-align:left;
+border-bottom:1px dashed #CCC;
+}
+
+/* listing page 2 columns */
+.classyfrieds_2col{
+float:left;
+width:44%;
+margin:1%;
+padding:1%;
+text-align:center;
+background-color:lightgreen;
+border:4px solid green;
+}
+
+
+/* listing page 3 columns */
+.classyfrieds_3col{
+float:left;
+width:28%;
+margin:1%;
+padding:1%;
+text-align:center;
+background-color:lightgreen;
+border:4px solid green;
+}
+
+.classyfrieds img{
+width:96%;
+text-align:center;
+padding:5px;
+border:4px solid green;
+}
+
+.classyfrieds_title{
+font-size:20px;
+text-align:center;
+}
+.classyfrieds_title a{
+font-size:20px;
+text-align:center;
+color:green;
+font-weight:900;
+}
+.classyfrieds_title a:hover{
+font-size:20px;
+text-align:center;
+color:lightgreen;
+background-color:green;
+font-weight:900;
+}
+
+/* single listing page */
+/* MAIN WRAPPER */
+.classy_listing_single{
+width:70%;
+float:left;
+text-align:center;
+}
+.classyfrieds_single{
+margin:1%;
+padding: 1%;
+text-align:left;
+background-color:lightgreen;
+border:4px solid green;
+}
+.classyfrieds_single_thumb{
+margin: 10px 0px 0 20px;
+width:110px;
+-moz-transform:rotate(340deg);
+-webkit-transform:rotate(340deg);
+-o-transform:rotate(340deg);
+-ms-transform:rotate(340deg);
+}
+.classyfrieds_single_thumb2{
+margin: 10px 0px 0 20px;
+width:110px;
+-moz-transform:rotate(15deg);
+-webkit-transform:rotate(15deg);
+-o-transform:rotate(15deg);
+-ms-transform:rotate(15deg);
+}
+.classyfrieds_single_thumb3{
+margin: 10px 0px 0 20px;
+width:110px;
+-moz-transform:rotate(340deg);
+-webkit-transform:rotate(340deg);
+-o-transform:rotate(340deg);
+-ms-transform:rotate(340deg);
+}
+.classyfrieds_single_thumb a{
+}
+.classyfrieds_single_thumb img{
+max-width:110px;
+}
+.classyfrieds_single_thumb2 img{
+margin-left:-25px;
+max-width:110px;
+}
+.classyfrieds_single_thumb3 img{
+max-width:130px;
+}
+.classyfrieds_single_title{
+text-align:center;
+font-size:26px;
+font-weight:900;
+}
+.classyfrieds_single_title a{
+color:black;
+}
+.classyfrieds_single_subtitle{
+text-align:center;
+font-size:16px;
+font-style:italic
+font-weight:700;
+}
+/* sidebar */
+.classy_sidebar{
+float:left;
+width:24%;
+margin-left:1%;
+padding:1%;
+background-color:lightgreen;
+border:4px solid green;
+overflow:hidden;
+}
+.classy_box{
+margin:1%;
+padding:2%;
+border:3px solid green;
+background-color:white;
+-webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+-moz-box-shadow: 0 0 1em hsla(0, 0%, 0%, 1.0);
+box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+}
+.classy_sidebar_ul li{
+margin:1%;
+padding:1%;
+border:3px solid green;
+background-color:white;
+-webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+-moz-box-shadow: 0 0 1em hsla(0, 0%, 0%, 1.0);
+box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+}
+
+/* theme pages */
+
+.classyfrieds_archive{
+width:99%;
+margin:5px auto;
+padding:3px;
+text-align:center;
+background-color:lightgreen;
+border:4px solid blue;
+}
+
+.lblock_classyfrieds_archive{
+float:left;
+width:100px;
+margin:5px auto;
+padding:3px;
+text-align:center;
+background-color:green;
+}
+
+.classyfrieds_bump_left{
+float:left;
+}
+
+.classyfrieds_title_archive{
+font-size:20px;
+text-align:center;
+}
+
+
+
+/* add listing page */
+.classyfrieds_addlisting{
+float:left;
+font-size:13px;
+font-weight:500;
+border-radius:15px;
+border:5px solid green;
+background-color:lightgreen;
+margin: 0.5%;
+width:68%;
+padding:5px;
+-webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+-moz-box-shadow: 0 0 1em hsla(0, 0%, 0%, 1.0);
+box-shadow: 0 0 1em rgba(0, 0, 0, 1.0);
+}
+
+.rowy{
+margin:1%;
+padding:1%;
+text-align:right;
+border:1px solid white;
+}
+.formy{
+padding:3px;
+border:solid 1px black;
+margin:6px;
+background-color:#CCC;
+}
+.lefty{
+float:left;
+width:35%;
+text-align:right;
+font-weight:800;
+}
+.righty{
+float:left;
+width:56%;
+text-align:right;
+font-weight:800;
+}
+.inputy{
+width:94%;
+}
+.texty{
+width:94%;
+}
+.submit{
+background-color:yellow;
+font-weight:900;
+padding:3px;
+}
+
+.replybutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	color:#306108;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #aade7c;
+}
+.replybutton a{
+color:white;
+text-decoration:none;
+}
+.replybutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+	background-color:#5cb811;
+}.replybutton:active {
+	position:relative;
+	top:1px;
+}

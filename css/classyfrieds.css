@@ -1,0 +1,160 @@
+/*MINIMAL LAYOUT - overridden by custom color schemes */
+
+/*clear both underline */
+.cf_classyclear{
+clear:both;
+height:3px;
+width:80%;
+margin:2px auto;
+border-bottom:2px solid #CCC;
+}
+
+.cf_clearclear{
+clear:both;
+}
+
+/*overrides */
+.classyfrieds_addlisting {
+min-width:420px;
+}
+.classy_listing_main {
+min-width:420px;
+}
+.classy_sidebar {
+min-width:180px;
+}
+.classyfrieds_single {
+overflow:hidden;
+}
+
+/* image hover */
+.cf_largehover:hover{
+transform: scale(1.4);
+-ms-transform: scale(1.4); /* IE 9 */
+-webkit-transform: scale(1.4); /* Safari and Chrome */
+-o-transform: scale(1.4); /* Opera */
+-moz-transform: scale(1.4); /* Firefox */
+}
+.xlhover:hover{
+transform: scale(2.4);
+-ms-transform: scale(2.4); /* IE 9 */
+-webkit-transform: scale(2.4); /* Safari and Chrome */
+-o-transform: scale(2.4); /* Opera */
+-moz-transform: scale(2.4); /* Firefox */
+}
+
+.cf_overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 99998;
+
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.cf_overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.cf_popup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    visibility: hidden;
+    z-index: 99999;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+.cf_overlay:target+.cf_popup {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+	width:60%;
+	min-width:320px;
+}
+.cf_close {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: -15px;
+    width: 30px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+.cf_close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-size: 24px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+.cf_close:hover {
+    background-color: rgba(64, 128, 128, 0.8);
+}
+.cf_popup p, .cf_popup div {
+    margin-bottom: 10px;
+}
+.cf_popup label {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+}
+.cf_popup input[type="text"], .cf_popup input[type="email"], .cf_popup input[type="password"] {
+    border: 1px solid;
+    border-color: #999 #ccc #ccc;
+    margin: 0;
+    padding: 2px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+.cf_popup input[type="text"]:hover, .cf_popup input[type="password"]:hover {
+    border-color: #555 #888 #888;
+}
